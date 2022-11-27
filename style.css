@@ -1,0 +1,119 @@
+/*Diseño del topbar*/
+* {
+  margin: 0;
+  color: white;
+}
+
+.topbar {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+  
+.topbar-left {
+  display: flex;
+  flex: 0.2;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+h1 {
+  font-size: 20px;
+  margin-left: 20px;
+}
+  
+.topbar-center {
+  font-family: sans-serif;
+  flex: 0.7;
+  display: flex;
+  justify-content: center;
+}
+  
+.topbar-search {
+  width: 50%;
+  height: 24px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  display: flex;
+  margin-left: -20%;
+}
+  
+.topbar-search .search-icon {
+  margin: 0 10px;
+}
+
+.topbar-search input {
+  border: 0;
+  background-color: whitesmoke;
+  width: 70%;
+  color: black;
+}
+  
+.topbar-search input:focus {
+  outline: none;
+}
+
+  /*Diseño del resto de la pagina*/
+img.logo{
+  margin-top: 4px;
+  margin-left: -140%;
+}
+
+img.logo_2{
+  margin-top: 4px;
+  margin-left: 400%;
+}
+
+div.logo_sesión{
+  display: flex;
+}
+
+h4.titulos_cuadros{
+  font-size: 26px;
+  font-weight: bold;
+  font-family: Calibri;
+  font-style: normal;
+  color: white;
+}
+
+div.cuadro_videos{
+  background-color: rgb(56, 56, 56);
+  position:initial;
+  margin: 40px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+div.video{
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-left: 0px;
+  float: left;
+  position: relative;
+  width: 19%;
+  height: 19%;
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+video{
+  border-radius: 20px;
+}
+
+h1.sacha{
+  margin-left: -10%;
+}
+  
+div.linea{
+  display: inline-block;
+}
+
+body{
+  width: 100%;margin: 0 auto;min-width:1920px;max-width:1920px
+  height: 100%;margin: 0 auto;min-height:1080px;max-height:1080px
+}
